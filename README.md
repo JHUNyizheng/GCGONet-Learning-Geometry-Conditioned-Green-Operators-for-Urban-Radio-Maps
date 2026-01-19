@@ -1,4 +1,4 @@
-# Radiomap2 (Protocol-First) — FNO / UNet / GeoGreen-Op (GCGO)
+# GeoGreen-Op for Radio Map Estimation (GCGO)
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](#requirements)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange.svg)](#requirements)
