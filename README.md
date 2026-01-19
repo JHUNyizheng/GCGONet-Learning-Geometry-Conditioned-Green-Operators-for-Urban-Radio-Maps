@@ -10,6 +10,8 @@ A **protocol-first** baseline codebase for radio-map prediction with unified **d
 - **UNet** (official baseline: strict 2-channel input)
 - **GeoGreen-Op (GCGO)** (geometry-conditioned Green-operator style model)
 
+Abstract：High-fidelity radio coverage estimation in dense urban areas is a significant challenge, largely because signal propagation is dictated by complex city geometry. While recent deep learning models—from CNNs to Transformers—have shown promise in predicting radio environment maps (REMs), they often treat wave propagation as a generic image-regression task, neglecting its fundamental physical structure. In this paper, we introduce a geometry-conditioned Green-operator framework that explicitly models how signal fields arise from city layouts. Instead of learning an implicit mapping, our model parameterizes the underlying Green functions as a geometry-conditioned kernel. We implement this using a neural operator architecture that combines a geometry-aware spectral core with a non-stationary low-rank correction. Evaluated on the URBAN-RM benchmark, our approach demonstrates superior generalization across diverse urban morphologies, outperforming standard FNO, Geo-FNO, and Transformer-based baselines. By bridging data-driven models with physics-inspired operators, we provide both state-of-the-art performance and interpretable diagnostics for wireless digital twins.
+
 The core idea is to describe an experiment once in `TOTAL_CFG["protocol"]` (split, input layout, target transforms, evaluator settings), then reuse the exact same protocol across all models.
 
 ---
