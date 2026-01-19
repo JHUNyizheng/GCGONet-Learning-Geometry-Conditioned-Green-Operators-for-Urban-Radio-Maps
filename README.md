@@ -263,11 +263,11 @@ Recommended checklist:
 If you use this code in academic work, please cite your paper or this repository. Example:
 
 ```bibtex
-@misc{radiomap2_protocol_first,
-  title        = {Radiomap2 Protocol-First Baselines},
-  author       = {YOUR_NAME},
+@misc{radiomapGCGO,
+  title        = {Learning Geometry-Conditioned Green Operators for Urban Radio Maps},
+  author       = {Yi Zheng},
   year         = {2026},
-  howpublished = {GitHub repository},
+  howpublished = {Under Review},
 }
 ```
 
